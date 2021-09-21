@@ -1,0 +1,11 @@
+.custom-button{
+    background-color: #005282;
+    border: 2px solid #005282;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.outline-id{
+    border: 2px solid #005282;
+    border-radius: 4px;
+}

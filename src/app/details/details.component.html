@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span><h1 class="ml-1">Name : {{data.name}}</h1></span>
+      <span class="spacer"></span>
+      <!-- <mat-icon fontSet="fas" [mat-dialog-close] fontIcon="fa-times"></mat-icon>     -->
+      <mat-icon  [mat-dialog-close] >close</mat-icon>
+  
+    </mat-toolbar-row>
+  </mat-toolbar>
+
+  <div  mat-dialog-content class="mt-2" style="margin:auto">
+    <div class="row">
+    <div><h5>Description</h5></div>
+    <div>{{data.description}} </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div><h5>Ontology Link</h5></div>
+    <div>{{data.ontology_link}} </div>
+    </div>
+    <hr>
+    <div class="row">
+    <div><h5>IRI</h5></div>
+    <div>{{data.iri}} </div>
+    </div>
+  </div>
+

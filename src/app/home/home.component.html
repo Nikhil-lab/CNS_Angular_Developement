@@ -1,0 +1,11 @@
+<app-header></app-header>
+
+<div class="container-fluid mt-3">
+    <h1> Anatomical Structures Data </h1>  
+    <div  class="row">
+      <div *ngFor="let item of final_data_list; let i = index;" class="col-sm-12 col-md-6 mt-5">
+          <div class="custom-button" (click)="moreDetails(item)">Name: {{item.name}} </div>
+          <div class="outline-id mt-1"> ID: {{item.id}}</div>
+      </div>
+    </div>
+  </div>
